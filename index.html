@@ -21,14 +21,14 @@
             <!-- NAVBAR -->
             <nav class="row justify-content-between text-white  align-items-center p-3 text-uppercase pt-4 ">
                 <!-- LOGO -->
-                <a href="#" class="col-auto  text-decoration-none text-reset">
+                <a href="#header" class="col-auto  text-decoration-none text-reset">
                     <img src="/Weston/img/logo-white.svg" class="img-logo" alt="Logo Weston">
                     Weston
                 </a>
                 <!-- ANCLAS -->
                 <div class="col-auto text-white">
                     <a class="text-reset text-decoration-none pe-4" href="#header">Home</a>
-                    <a class="text-reset text-decoration-none pe-4" href="#">Experience</a>
+                    <a class="text-reset text-decoration-none pe-4" href="#experience">Experience</a>
                     <a class="text-reset text-decoration-none pe-4" href="#">Inspiration</a>
                     <a class="text-reset text-decoration-none pe-4" href="#">Features</a>
                     <a class="text-reset text-decoration-none" href="#">Contact</a>
@@ -38,14 +38,22 @@
             <div class="row h-100 align-items-center ">
                 <div class="col-6 text-white text-capitalize">
                     <!-- TITLE -->
-                    <h1>
-                        <span class=" text-warning h5">The greath outdoor </span> <br> adventure
+                    <h1 class="display-3">
+                        <span class=" text-warning h4 display-5 ">The greath outdoor </span> <br>
+                        adventure
                     </h1>
                     <!-- DESCRIPTION -->
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, sequi! Rerum earum debitis
+                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, sequi! Rerum
+                        earum debitis
                         alias quis?</p>
                     <!-- BTN -->
-                    <a href="#" class="btn btn-warning text-white">Buy now</a>
+                    <button class="learn-more">
+                        <span class="circle bg-warning" aria-hidden="true">
+                            <span class="icon arrow"></span>
+                        </span>
+                        <span class="button-text text-white">Buy now</span>
+                    </button>
+                    <!-- <a href="#" class="btn btn-warning text-white">Buy now</a> -->
                 </div>
             </div>
         </div>
@@ -53,13 +61,14 @@
 
     </header>
 
+    <!-- EXPERIENCE -->
     <section class="container">
         <div class="row">
             <!-- TEXTS -->
-            <div class="col-12 text-center">
-                <h2 class="text-warning text-uppercase h6">Experience</h2>
-                <h3 class="text-capitalize">The thrilling outdoor</h3>
-                <p class="text-muted">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores
+            <div class="col-12 text-center" id="experience">
+                <h2 class="text-warning text-uppercase h4 display-5">Experience</h2>
+                <h3 class="text-capitalize display-4">The thrilling outdoor</h3>
+                <p class="text-muted pb-3 lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores
                     architecto, aspernatur
                     rerum
                     natus porro ratione vel obcaecati nam, aut id maxime similique odit eum, eveniet iusto ipsa
@@ -68,41 +77,41 @@
             <!-- CARDS -->
 
             <!-- CARD #1 -->
-            <article class="col-4">
+            <article class="col-4 card-effect">
                 <div class="card">
                     <img src="/Weston/img/rafting.png" class="card-img card-img-filter" alt="rafting">
                     <div
                         class="card-img-overlay text-white d-flex flex-column align-items-center justify-content-center">
                         <h4 class="card-title">Rafting</h4>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis
+                        <p class="card-text lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis
                             quis ratione ut eius, tempora cupiditate.</p>
-                        <a href="#" class="text-reset text-decoration-none">Read more</a>
+                        <a href="#" class="text-reset text-decoration-none btn btn-warning">Read more</a>
                     </div>
                 </div>
             </article>
             <!-- CARD #2 -->
-            <article class="col-4">
+            <article class="col-4 card-effect">
                 <div class="card">
-                    <img src="/Weston/img/rafting.png" class="card-img card-img-filter" alt="rafting">
+                    <img src="/Weston/img/hiking.png" class="card-img card-img-filter" alt="hiking">
                     <div
                         class="card-img-overlay text-white d-flex flex-column align-items-center justify-content-center">
-                        <h4 class="card-title">Rafting</h4>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis
+                        <h4 class="card-title">Hiking</h4>
+                        <p class="card-text lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis
                             quis ratione ut eius, tempora cupiditate.</p>
-                        <a href="#" class="text-reset text-decoration-none">Read more</a>
+                        <a href="#" class="text-reset text-decoration-none btn btn-warning">Read more</a>
                     </div>
                 </div>
             </article>
             <!-- CARD #3 -->
-            <article class="col-4">
+            <article class="col-4 card-effect">
                 <div class="card">
-                    <img src="/Weston/img/rafting.png" class="card-img card-img-filter" alt="rafting">
+                    <img src="/Weston/img/camping.png" class="card-img card-img-filter" alt="camping">
                     <div
                         class="card-img-overlay text-white d-flex flex-column align-items-center justify-content-center">
-                        <h4 class="card-title">Rafting</h4>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis
+                        <h4 class="card-title">Camping</h4>
+                        <p class="card-text lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis
                             quis ratione ut eius, tempora cupiditate.</p>
-                        <a href="#" class="text-reset text-decoration-none">Read more</a>
+                        <a href="#" class="text-reset text-decoration-none btn btn-warning">Read more</a>
                     </div>
                 </div>
             </article>
@@ -110,6 +119,14 @@
         </div>
     </section>
 
+    <!-- COMMENTS -->
+    <section class="comments">
+        <div class="container">
+            <div class="row">
+                <blockquote class="col-12"></blockquote>
+            </div>
+        </div>
+    </section>
 
 
 
