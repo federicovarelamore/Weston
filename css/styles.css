@@ -22,3 +22,7 @@
 .vh-50 {
   height: 50vmin;
 }
+
+.card-img-filter {
+  filter: brightness(0.5);
+}
