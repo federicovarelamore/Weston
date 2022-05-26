@@ -7,11 +7,11 @@
     <title>Trip trip</title>
     <!-- CSS Bootstrap -->
     <link rel="stylesheet" href="/Weston/css/bootstrap.min.css" />
+    <!-- CSS Main -->
     <link rel="stylesheet" href="/Weston/css/styles.css">
     <!-- CDN Font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
-    <!-- CSS Main -->
-    <link rel="stylesheet" href="./css/main.css" />
+
 </head>
 
 <body>
@@ -47,12 +47,14 @@
                         earum debitis
                         alias quis?</p>
                     <!-- BTN -->
-                    <button class="learn-more">
-                        <span class="circle bg-warning" aria-hidden="true">
-                            <span class="icon arrow"></span>
-                        </span>
-                        <span class="button-text text-white">Buy now</span>
-                    </button>
+                    <a href="#header">
+                        <button class="learn-more">
+                            <span class="circle bg-warning" aria-hidden="true">
+                                <span class="icon arrow"></span>
+                            </span>
+                            <span class="button-text text-white">Buy now</span>
+                        </button>
+                    </a>
                     <!-- <a href="#" class="btn btn-warning text-white">Buy now</a> -->
                 </div>
             </div>
@@ -68,7 +70,7 @@
             <div class="col-12 text-center" id="experience">
                 <h2 class="text-warning text-uppercase h4 display-5">Experience</h2>
                 <h3 class="text-capitalize display-4">The thrilling outdoor</h3>
-                <p class="text-muted pb-3 lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores
+                <p class="text-muted py-5 lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores
                     architecto, aspernatur
                     rerum
                     natus porro ratione vel obcaecati nam, aut id maxime similique odit eum, eveniet iusto ipsa
@@ -120,10 +122,21 @@
     </section>
 
     <!-- COMMENTS -->
-    <section class="comments">
+    <section class="comments mt-5">
+        <img src="/Weston/img/cuts/cut-header.svg" alt="cut-comments" class="transform-turn">
         <div class="container">
             <div class="row">
-                <blockquote class="col-12"></blockquote>
+                <blockquote class="col-12 text-center text-white">
+                    <!-- IMG -->
+                    <img src="/Weston/img/john-doe.jpeg" alt="john-doe" class="comments__img">
+                    <!-- COMMENT -->
+                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis hic sunt
+                        debitis officiis,
+                        explicabo porro?</p>
+                    <br>
+                    <!-- NAME -->
+                    <footer class="blockquote-footer text-white"><cite>John-Doe</cite></footer>
+                </blockquote>
             </div>
         </div>
     </section>

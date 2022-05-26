@@ -164,3 +164,16 @@ button:hover .button-text {
   background-position: center;
   background-size: cover;
 }
+
+.comments__img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: ridge 3px #fff;
+  box-shadow: 7px 7px 7px rgba(0 0 0 / 0.5);
+}
+
+.transform-turn {
+  transform: rotate(180deg);
+}
