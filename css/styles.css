@@ -9,7 +9,7 @@ body {
   background-size: cover;
 }
 
-.header::after {
+/* .header::after {
   content: "";
   display: block;
   width: 100%;
@@ -18,7 +18,7 @@ body {
   position: absolute;
   left: 0;
   top: 100;
-}
+} */
 
 .img-logo {
   width: 40px;
@@ -36,6 +36,12 @@ body {
 
 .vh-50 {
   height: 50vmin;
+}
+
+.bg {
+  width: 100%;
+  background-color: #fff;
+  margin-top: -15px;
 }
 
 /* SECTION  EXPERIENCE  */
@@ -179,9 +185,6 @@ button:hover .button-text {
 .comments.linear-white::after {
   top: 0;
 }
-blockquote {
-  margin-bottom: 100px;
-}
 
 .comments__img {
   width: 120px;
@@ -206,4 +209,16 @@ blockquote {
 /* CAROUSEL */
 .carousel-weston-middle {
   top: 35%;
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 375px) {
+  .vh-50 {
+    height: 50vmax;
+  }
+}
+@media screen and (max-width: 450px) {
+  .vh-50 {
+    height: 55vmax;
+  }
 }
