@@ -29,8 +29,8 @@
                 <div class="col-auto text-white">
                     <a class="text-reset text-decoration-none pe-4" href="#header">Home</a>
                     <a class="text-reset text-decoration-none pe-4" href="#experience">Experience</a>
-                    <a class="text-reset text-decoration-none pe-4" href="#">Inspiration</a>
-                    <a class="text-reset text-decoration-none pe-4" href="#">Features</a>
+                    <a class="text-reset text-decoration-none pe-4" href="#inspiration">Inspiration</a>
+                    <a class="text-reset text-decoration-none pe-4" href="#carouselExampleControls">Features</a>
                     <a class="text-reset text-decoration-none" href="#">Contact</a>
                 </div>
             </nav>
@@ -128,9 +128,10 @@
             <div class="row">
                 <blockquote class="col-12 text-center text-white">
                     <!-- IMG -->
-                    <img src="/Weston/img/john-doe.jpeg" alt="john-doe" class="comments__img">
+                    <img src="/Weston/img/john-doe.jpeg" alt="john-doe" class="comments__img" id="inspiration">
                     <!-- COMMENT -->
-                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis hic sunt
+                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Blanditiis hic sunt
                         debitis officiis,
                         explicabo porro?</p>
                     <br>
@@ -143,7 +144,7 @@
 
     <!-- INSPIRATION -->
     <section class="container">
-        <div class="row mt-5">
+        <div class="row mt-5 mb-5">
             <!-- TITLES -->
             <div class="col-12 text-center">
                 <h3 class="text-warning text-uppercase h5">
@@ -183,6 +184,15 @@
                         <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
                     </div>
                 </li>
+                <li class="d-flex">
+                    <img src="/Weston/img/sparks/boat.jpg" alt="Boat" class="media-object-img">
+                    <div class="flex-grow-1 ms-3">
+                        <h5 class="mb-0 mb-1">Subtitle</h5>
+                        <h4 class="text-primary">
+                            <a href="#" class="text-decoration-none text-reset">Title of object</a>
+                        </h4>
+                        <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                    </div>
             </ul>
             <!-- MEDIA OBJECT #2 -->
             <ul class="col-6">
@@ -216,10 +226,101 @@
                         <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
                     </div>
                 </li>
+                <li class="d-flex">
+                    <img src="/Weston/img/sparks/boat.jpg" alt="Boat" class="media-object-img">
+                    <div class="flex-grow-1 ms-3">
+                        <h5 class="mb-0 mb-1">Subtitle</h5>
+                        <h4 class="text-primary">
+                            <a href="#" class="text-decoration-none text-reset">Title of object</a>
+                        </h4>
+                        <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                    </div>
             </ul>
         </div>
     </section>
+    <!-- CAROUSEL -->
+    <div id="carouselExampleControls" class="carousel slide carousel-fade" data-bs-ride="carousel">
 
+        <!-- SLIDES -->
+        <div class="carousel-inner">
+            <!-- SLIDE #1 -->
+            <div class="carousel-item active">
+                <img src="/Weston/img/carousel/Carousel-01.jpg" class="d-block w-100" alt="Camping">
+                <div class="carousel-caption d-none d-md-block carousel-weston-middle">
+                    <h2 class="text-uppercase">don't live your life unlived</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias esse saepe distinctio enim totam
+                        iure. Expedita voluptatem atque aliquam libero.</p>
+                    <button class="btn btn-light px-4 text-capitalize">Lets go!</button>
+                </div>
+            </div>
+            <!-- SLIDE #2 -->
+            <div class="carousel-item">
+                <img src="/Weston/img/carousel/Carousel-02.jpg" class="d-block w-100" alt="Boat">
+                <div class="carousel-caption d-none d-md-block carousel-weston-middle">
+                    <h2 class="text-uppercase">don't live your life unlived</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet obcaecati ipsum repellendus maxime
+                        modi fuga exercitationem recusandae eos dolore id.</p>
+                    <button class="btn btn-light px-4 text-capitalize">Lets go!</button>
+                </div>
+            </div>
+            <!-- SLIDE #3 -->
+            <div class="carousel-item">
+                <img src="/Weston/img/carousel/Carousel-03.jpg" class="d-block w-100" alt="Relax">
+                <div class="carousel-caption d-none d-md-block carousel-weston-middle">
+                    <h2 class="text-uppercase">don't live your life unlived</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet obcaecati ipsum repellendus maxime
+                        modi fuga exercitationem recusandae eos dolore id.</p>
+                    <button class="btn btn-light px-4 text-capitalize">Lets go!</button>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <section class="container">
+        <div class="row mt-5">
+            <div class="col-12 text-center">
+                <h4 class="text-uppercase text-warning h5">let the</h4>
+                <h3 class="text-capitalize mb-5">good times roll</h3>
+            </div>
+            <div class="col-6 lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni aliquid doloremque
+                commodi similique accusantium voluptatibus aspernatur. Odit quisquam, minima quam assumenda, temporibus
+                aliquam est vel ullam omnis quos provident cumque cum maxime aperiam dolorum quasi voluptatum nisi eaque
+                voluptas incidunt.</div>
+            <div class="col-6 lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti cum animi modi
+                ullam a
+                fuga, fugit tenetur id ex atque dicta possimus qui obcaecati facilis eos non cumque, inventore
+                aspernatur nihil quisquam. Excepturi maxime nisi minus voluptas aliquid, laudantium vero?</div>
+            <div class="col-3 py-5">
+                <h5 class="text-warning">What?</h5>
+                <h6>July 20th - July 30th</h6>
+            </div>
+            <div class="col-3 py-5">
+                <h5 class="text-warning">Where?</h5>
+                <h6>California, EEUU</h6>
+            </div>
+            <div class="col-3 py-5">
+                <h5 class="text-warning">How long?</h5>
+                <h6>7 days & 7 nights</h6>
+            </div>
+            <div class="col-3 py-5">
+                <h5 class="text-warning">How much?</h5>
+                <h6>$14 per night</h6>
+            </div>
+            <br>
+            <div class="col-auto mx-auto my-5">
+                <a href="#" class="btn btn-outline-warning text-uppercase"> Buy now</a>
+            </div>
+        </div>
+    </section>
     <!-- JS Bootstrap -->
     <script src="/Weston/js/bootstrap.bundle.min.js"></script>
 </body>
